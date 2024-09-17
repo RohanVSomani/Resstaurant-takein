@@ -1,0 +1,17 @@
+.back__button{
+    border: 0.2px solid black;
+    border-radius: 50%;
+    display: flex;
+    @include flexc;
+    font-size:larger;
+    position: fixed;
+    left:20px;
+    padding :0.65rem;
+    background-color: $button_back;
+    margin: 1rem;
+}
+.place_order{
+    @include flexc;
+    padding: 0.65rem;
+    margin :0.25rem;
+}

@@ -1,0 +1,86 @@
+.custorder{
+    padding:1rem;
+    // margin :1rem;
+    border:1px solid black;
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+    min-height:100vh;
+    justify-content: space-evenly;
+    align-items:center;
+    //display: none;
+}
+.cuisine__list{
+    background-color: white;
+    height:100%;
+    display:flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cuisine__item{
+    padding :1rem;
+    @include flexc;
+    flex-direction: column;
+    border-top:6px black double;
+}
+.cuisine__item:last-child{
+    padding :1rem;
+    @include flexc;
+    flex-direction: column;
+    border-bottom:6px black double;
+}
+.cuisine__item img{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.cuisine__item img:target{
+    border: 1px solid red
+}
+//-------------Items ---------
+
+.food__item__list{
+    margin-left: 1rem;
+    border : 1px solid black;
+    height: 100%;
+    background-color: antiquewhite;
+
+}
+.beverages__list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:4rem;
+    margin: 3rem 0 0 3rem;
+    
+}
+.food__item{
+    @include flexc;
+    flex-direction: column;
+}
+.food__item img {
+    
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.sindian__list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:4rem;
+    margin: 3rem 0 0 3rem;
+    
+}
+.nindian__list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:4rem;
+    margin: 3rem 0 0 3rem;
+    
+}
+.chinese__list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:4rem;
+    margin: 3rem 0 0 3rem;
+    
+}

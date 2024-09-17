@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family :"Montserrat",san-serif;
+    font-weight: bold;
+}
+body{
+    width: 100%;
+    height: 100%;
+    @include flexc;
+    
+}
+
+header{
+    position:absolute;
+    top:0px; 
+    left:0px; 
+    height:75px; 
+    right:0px;
+    overflow:hidden;
+    background-color: $alt_back;
+    color: $alt_font;
+    @include flexc;
+
+}
+main{
+    position:absolute; 
+    top:75px; 
+    bottom:75px; 
+    left:0px; 
+    right:0px; 
+    overflow:auto;
+    background-color: $back-color;
+    color: $font-color;
+    @include flexc;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+footer{
+    position:absolute; 
+    bottom:0px; 
+    height:75px; 
+    left:0px; 
+    right:0px; 
+    overflow:hidden;
+    background-color: $alt_back;
+    color: $alt_font;
+    @include flexc;
+}
+img{
+    width: 125px;
+    height: 125px;
+}

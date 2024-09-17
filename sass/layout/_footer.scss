@@ -1,0 +1,19 @@
+footer{
+    justify-content: space-between;
+}
+.open__footer{
+    margin:1rem;
+}
+.takenin__footer{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:1rem;
+    margin: 1rem;
+
+}
+.cost{
+    border-right:1px solid black;
+    padding:1rem;
+    margin:1rem;
+}
